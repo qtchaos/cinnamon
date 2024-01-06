@@ -1,0 +1,23 @@
+{
+  "name": "cinnamon",
+  "version": "1.0.0-beta",
+  "author": {
+    "name": "qtchaos"
+  },
+  "private": true,
+  "scripts": {
+    "prepare": "nitropack prepare",
+    "dev": "nitropack dev",
+    "build": "nitropack build",
+    "preview": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "megajs": "^1.1.6",
+    "nitropack": "latest"
+  },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^5.1.2",
+    "prettier": "^3.1.1"
+  }
+}
